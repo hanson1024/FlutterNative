@@ -1,0 +1,65 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_downloader (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_downloader
+    - path_provider
+    - permission_handler
+    - sqflite
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - my_flutter (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - permission_handler (3.2.2):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+
+DEPENDENCIES:
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - flutter_downloader (from `../my_flutter/.ios/Flutter/.symlinks/flutter_downloader/ios`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - path_provider (from `../my_flutter/.ios/Flutter/.symlinks/path_provider/ios`)
+  - permission_handler (from `../my_flutter/.ios/Flutter/.symlinks/permission_handler/ios`)
+  - sqflite (from `../my_flutter/.ios/Flutter/.symlinks/sqflite/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  flutter_downloader:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/flutter_downloader/ios"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+  path_provider:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/path_provider/ios"
+  permission_handler:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/permission_handler/ios"
+  sqflite:
+    :path: "../my_flutter/.ios/Flutter/.symlinks/sqflite/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_downloader: 058b9c41564a90500f67f3e432e3524613a7fd83
+  FlutterPluginRegistrant: e4826747714a6476f753ab395c0acbfd8dad66aa
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  my_flutter: c0ca42721b3297bc8d54e93782ac00730d3bd1a1
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  permission_handler: d59f41439f5bc6c4d1005f3355e98f05ddc68ece
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
+
+PODFILE CHECKSUM: 33713e8a57f1d4f528db43138b0a03235cd01d58
+
+COCOAPODS: 1.7.2
